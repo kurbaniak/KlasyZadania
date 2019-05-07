@@ -34,4 +34,10 @@ public class BattleApp {
     public void printDeck(){
         System.out.println("print");
     }
+
+    //todo cos dodane
+
+    public void printDeck2(){
+        System.out.println("print");
+    }
 }
