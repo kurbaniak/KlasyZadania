@@ -35,6 +35,10 @@ public class BattleApp {
         System.out.println("print");
     }
 
+    public void newww(){
+
+    }
+
     //todo cos dodane
 
     public void printDeck2(){
