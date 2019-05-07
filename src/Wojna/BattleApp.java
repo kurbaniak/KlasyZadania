@@ -7,15 +7,17 @@ import java.util.Random;
 public class BattleApp {
     public static void main(String[] args) {
 
-        List<Card> leftSet = createDect (10);
-        List<Card> rightSet = createDect(10);
+        List<Card> leftSet = createDeck (10);
+        List<Card> rightSet = createDeck(10);
+
+        createDeck(52);
 
         NormalBattle normalBattle = new NormalBattle();
         normalBattle.checkWinner(leftSet, rightSet);
     }
 
    // public static List<Card> createDect(int rareSeed, int deckSize){
-    public static List<Card> createDect(int deckSize){
+    public static List<Card> createDeck(int deckSize){
         List<Card> rc = new ArrayList<>();
         //Random random = new Random(rareSeed);
         Random random = new Random();
